@@ -33,6 +33,7 @@ bin/
 
 ### Eclipse ###
 .metadata
+bin/
 tmp/
 *.tmp
 *.bak
@@ -59,6 +60,7 @@ local.properties
 .autotools
 
 # Java annotation processor (APT)
+.factorypath
 
 # PDT-specific (PHP Development Tools)
 .buildpath
