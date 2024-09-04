@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -18,6 +19,12 @@ public class Main {
         curso2.setCargaHoraria(4);
 
         System.out.println(curso2);
+
+        // não possivel que a classe Conteudo é abstract
+        //Conteudo conteudo = new Conteudo();
+
+        // polimorfismo
+        //Conteudo curso3 = new Curso();
 
         Mentoria mentoria = new Mentoria();
 
